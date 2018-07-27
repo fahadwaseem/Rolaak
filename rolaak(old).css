@@ -1,0 +1,32 @@
+#box1{
+	min-height: 500px;
+	background-color: #29abe2;	
+}
+
+#box2{
+	min-height: 400px;	
+	background-color: #DDDDDD;
+}
+
+#box3{
+	min-height: 400px;	
+	background-color: #CCCCCC;
+}
+
+#box4{
+	min-height: 400px;	
+	background-color: #BBBBBB;
+}
+.input{
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 80%;
+	height: 80%;
+}
+.signup-panel{
+	margin-top: 10%;
+	margin-left: 10%;
+	border-radius: 30px;
+}

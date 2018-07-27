@@ -1,0 +1,180 @@
+body{
+	background-color: #29abe2;
+}
+.logotop{
+	width: 7%;
+}
+#box1{
+	min-height: 500px;
+	background-color: #29abe2;	
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(image2.jpg);
+	background-repeat: no-repeat;
+}
+.panelcb{
+	padding-left:14%; 
+}
+/*checkbox css start*/
+label.checkbox input[type="checkbox"] {
+	display:none;
+	float: right;
+}
+label.checkbox span {
+    display:inline-block;
+    border:1px solid #adadad;
+    border-radius:5px;
+    width:18px;
+    height:18px;
+    background:white;
+    vertical-align:middle;
+    margin:0px;
+    padding: 0px;
+    text-align:center;
+    float: right;
+}
+label.checkbox :checked + span {
+    background:#29abe2;
+}
+label.checkbox span:before {
+    content:"";
+    vertical-align:middle;
+    color:white;
+}
+label.checkbox :checked + span:before {
+    content:"✔";
+}
+/*checkbox css end*/
+input.icon::-webkit-input-placeholder {
+    font-family:'FontAwesome';
+}
+input.icon::-moz-placeholder {
+    font-family:'FontAwesome';
+}
+input.icon::-ms-input-placeholder {
+    font-family:'FontAwesome';
+}
+.dropdown{
+  font-family: FontAwesome, sans-serif;
+  -webkit-appearance: none;
+}
+select.input-lg{
+	line-height: normal;
+	color: #adadad;
+}
+#box2{
+	min-height: 475px;	
+	background-color: white;
+}
+#box3{
+	min-height: 350px;	
+	background-color: #29abe2;
+}
+.box3text{
+	color: #f2f2f2;
+    width: 13em;
+    word-wrap: break-word;
+}
+#box4{
+	min-height: 400px;	
+	background-color: white;
+}
+.boxheading{
+	color: #29abe2;
+	margin-bottom: 2%;
+}
+.boxtext{
+	color: #666666;
+	font-size: 22px;
+    font-family: verdana;
+    width: 40em;
+    word-wrap: break-word;
+}
+.input{
+	background-color: #f2f2f2;
+	border-radius: 36px;
+	margin-top:5%;
+	width: 80%;
+	height: 80%;
+}
+.input-lg{
+	font-size: 16px;
+}
+.signup-panel{
+	margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 15%;
+    border-radius: 30px;
+}
+span {
+  position: relative; /* Helps curtail overlap */
+  border: solid 1px #bbb;
+  padding: 3px 5px 5px 25px; /* Adjust as needed */
+}
+span input {
+  border: none;
+}
+.rolaaktext{
+	font-size: 130px;
+    color: white;
+}
+.rtdiv{
+	padding-top: 14%;
+	padding-left: 5%;
+}
+.menu{
+	padding-top: 3%;
+	padding-left: 4%;
+    color: #f2f2f2;
+}
+.sbutton{
+	background: none;
+    border: 1px solid;
+    border-color: #29abe2;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #29abe2;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.signupheading{
+	color: #29abe2;
+}
+.fromtext{
+	color: #29abe2;
+}
+.paneltop{
+	padding-bottom: 8%;
+}
+.logobottom{
+	width: 6%;
+}
+.copyright{
+	font-size: 18px;
+}
+@media(min-width:0px) and (max-width: 991px){
+	.rolaaktext{
+		font-size: 79px;
+	}
+	.logotop{
+		width: 15%;
+	}
+	.menu{
+		padding-left: 0px;
+	}
+	.logodiv{
+		padding-left: 2%;
+	}
+	.rtdiv{
+		padding-top: 0px;
+	}
+	.signup-panel{
+		margin: 0px;
+	}
+	.logobottom{
+		width: 15%;
+	}
+	.boxtext{
+		width: 14em;
+	}
+}
